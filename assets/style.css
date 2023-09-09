@@ -1,0 +1,51 @@
+body {
+  font-family: 'Exo', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin: 0;
+}
+
+.logo {
+  background-color: orange;
+  background: url("images/cat-paw-img.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.heading {
+  text-align: center;
+}
+
+.bg-color-name-title {
+  background-color: pink;
+}
+
+.name {
+  font-family: 'Exo', sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+hr {
+  color: white;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
