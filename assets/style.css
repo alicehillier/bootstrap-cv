@@ -167,3 +167,23 @@ footer {
 .social-links li a i:hover {
   background-color: rgb(75, 66, 105);
 }
+
+.bg-color-three-reasons {
+  background-color: white;
+}
+
+.row-table {
+  display: table;
+}
+
+.section-column {
+  display: table-cell;
+  padding: 0 1.5rem;
+  float: none;
+}
+
+.section-heading {
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  margin: 2rem 0;
+}
