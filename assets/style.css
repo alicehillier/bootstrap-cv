@@ -24,7 +24,7 @@ header {
 }
 
 .bg-color-name-title {
-  background-color: pink;
+  background-color: rgb(25, 22, 35);
 }
 
 .name {
@@ -47,19 +47,19 @@ header {
 }
 
 .ui-menu-color-home {
-  background-color: rgb(199, 199, 255);
+  background-color: rgb(49, 43, 70);
 }
 
 .ui-menu-color-cv {
-  background-color: rgb(255, 215, 142);
+  background-color: rgb(49, 43, 70);
 }
 
 .ui-menu-color-contact {
-  background-color: rgb(156, 255, 156);
+  background-color: rgb(49, 43, 70);
 }
 
 .ui-menu-color-download {
-  background-color: rgb(255, 157, 157);
+  background-color: rgb(49, 43, 70);
 }
 
 .list-inline-item:not(:last-child) {
@@ -106,7 +106,30 @@ header {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   padding-bottom: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.general-sub {
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+footer {
+  background-color: rgb(75, 66, 105);
+  color: white;
+  min-height: 120px;
 }
