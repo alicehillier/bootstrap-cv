@@ -80,7 +80,7 @@ header {
 }
 
 .menu-item a i {
-  padding-top: 3rem;
+  padding-top: 2rem;
   display: block;
   font-size: 2rem;
   text-shadow: 2px 2px 2px black;
@@ -95,7 +95,7 @@ header {
   text-shadow: 1px 1px 1px black;
   font-size: 1.5rem;
   font-weight: 600;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 h1,
@@ -113,6 +113,8 @@ h4 {
   font-family: 'Exo', sans-serif;
   font-weight: 300;
   color: white;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 footer {
@@ -127,13 +129,22 @@ footer {
 
 .inline-block {
   display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.cv-pdf {
+  text-decoration: none;
 }
 
 .cv-pdf i {
   font-size: 1.5rem;
   color: white;
   text-align: center;
-  padding-left: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -145,16 +156,18 @@ footer {
 }
 
 .social-links {
-  padding-bottom: 1.5rem;
+  text-align: center;
+  margin: 0;
 }
 
 .social-links li a i {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
   padding: 0.5rem;
   border-radius: 50%;
-  font-size: 1rem;
-  line-height: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   text-align: center;
   color: white;
   background-color: rgb(25, 22, 35);
@@ -165,15 +178,12 @@ footer {
 }
 
 .social-links li a i:hover {
-  background-color: rgb(75, 66, 105);
+  background-color: white;
+  color: rgb(25, 22, 35);
 }
 
 .bg-color-three-reasons {
   background-color: white;
-}
-
-.row-table {
-  display: table;
 }
 
 .section-column {
@@ -185,7 +195,8 @@ footer {
 .section-heading {
   font-family: 'Exo', sans-serif;
   font-weight: 300;
-  margin: 2rem 0;
+  margin: 4rem 0;
+  text-align: center;
 }
 
 .three-reasons-icon {
@@ -194,12 +205,16 @@ footer {
 }
 
 .three-reasons-heading {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.about-me-p {
+  margin-bottom: 2rem;
 }
 
 .bg-color-personal-info {
-  background-color: rgb(225, 198, 215);
-  color: rgb(25, 22, 35);
+  background-color: rgb(25, 22, 35);
+  color: white;
 }
 
 .personal-info-item {
@@ -219,7 +234,7 @@ footer {
 }
 
 .personal-info-item .key {
-  width: 30%;
+  width: 40%;
   vertical-align: top;
 }
 
@@ -229,5 +244,15 @@ footer {
 
 .personal-info-item .value {
   position: relative;
-  width: 60%;
+  width: 55%;
+  overflow-wrap: break-word;
+}
+
+.personal-info-item:last-child,
+.about-me-p:last-child {
+  margin-bottom: 4rem;
+}
+
+.footer-section .general-sub {
+  margin: 2rem;
 }
