@@ -79,10 +79,14 @@ header {
   height: 100%;
 }
 
+.menu-item:hover {
+  opacity: 0.8;
+}
+
 .menu-item a i {
   padding-top: 2rem;
   display: block;
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -129,7 +133,11 @@ footer {
 
 .inline-block {
   display: inline-block;
+  text-align: center;
   width: 100%;
+}
+
+.download-button {
   text-align: center;
 }
 
@@ -141,9 +149,7 @@ footer {
   font-size: 1.5rem;
   color: white;
   text-align: center;
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
+  padding: 0;
   text-decoration: none;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -153,17 +159,19 @@ footer {
 
 .cv-pdf i:hover {
   color: white;
+  transform: scale(1.25);
 }
 
 .social-links {
   text-align: center;
   margin: 0;
+  margin-bottom: 2rem;
 }
 
 .social-links li a i {
   width: 3rem;
   height: 3rem;
-  margin: 0.5rem;
+  margin: 0.15rem;
   padding: 0.5rem;
   border-radius: 50%;
   font-size: 1.5rem;
@@ -200,12 +208,12 @@ footer {
 }
 
 .three-reasons-icon {
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: rgb(25, 22, 35);
 }
 
 .three-reasons-heading {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .about-me-p {
@@ -255,4 +263,5 @@ footer {
 
 .footer-section .general-sub {
   margin: 2rem;
+  margin-bottom: 1rem;
 }
