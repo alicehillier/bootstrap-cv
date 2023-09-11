@@ -201,3 +201,33 @@ footer {
   background-color: rgb(225, 198, 215);
   color: rgb(25, 22, 35);
 }
+
+.personal-info-item {
+  margin-bottom: 1rem;
+  display: block;
+  clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+  display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+  margin: 0;
+}
+
+.personal-info-item .key {
+  width: 30%;
+  vertical-align: top;
+}
+
+.personal-info-item .key p {
+  font-weight: 700;
+}
+
+.personal-info-item .value {
+  position: relative;
+  width: 60%;
+}
