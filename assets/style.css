@@ -97,8 +97,8 @@ header {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px black;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 500;
   padding-bottom: 2rem;
 }
 
@@ -209,8 +209,12 @@ footer {
 }
 
 .three-reasons-icon {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: rgb(25, 22, 35);
+}
+
+.col-2 {
+  text-align: center;
 }
 
 .three-reasons-heading {
@@ -248,7 +252,7 @@ footer {
 }
 
 .personal-info-item .key p {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .personal-info-item .value {
