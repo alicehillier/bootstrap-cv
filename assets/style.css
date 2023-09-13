@@ -270,3 +270,20 @@ footer {
   margin: 2rem;
   margin-bottom: 1rem;
 }
+
+/* cv.html styles */
+
+.progress {
+  position: relative;
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+.progress-type {
+  position: absolute;
+  left: 0px;
+  font-weight: 400;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  color: white;
+  background-color: rgb(25, 22, 35);
+}
