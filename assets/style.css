@@ -7,6 +7,8 @@ header {
   margin: 0;
 }
 
+/* Profile Picture */
+
 .logo {
   background: url("images/cat-paw-img.jfif");
   background-position: center;
@@ -17,6 +19,8 @@ header {
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
 }
+
+/* Name and Profession section */
 
 .heading {
   text-align: center;
@@ -44,6 +48,8 @@ header {
   color: white;
   text-shadow: 1px 1px 1px black;
 }
+
+/* Navbar section */
 
 .ui-menu-color {
   background-color: rgb(75, 66, 105);
@@ -121,6 +127,8 @@ h4 {
   margin-bottom: 2rem;
 }
 
+/* Footer section */
+
 footer {
   background-color: rgb(49, 43, 70);
   color: white;
@@ -191,6 +199,8 @@ footer {
   color: rgb(25, 22, 35);
 }
 
+/* Three Reasons section */
+
 .bg-color-three-reasons {
   background-color: white;
 }
@@ -224,6 +234,8 @@ footer {
 .about-me-p {
   margin-bottom: 2rem;
 }
+
+/* Personal Information section */
 
 .bg-color-personal-info {
   background-color: rgb(25, 22, 35);
@@ -272,6 +284,19 @@ footer {
 }
 
 /* cv.html styles */
+
+/* Work History section */
+
+.bg-color-work-history {
+  background-color: rgb(75, 66, 105);
+  color: white;
+}
+
+.work-history-mb {
+  margin-bottom: 4rem;
+}
+
+/* My Skills section */
 
 .progress-section {
   margin: 3rem 1.5rem;
