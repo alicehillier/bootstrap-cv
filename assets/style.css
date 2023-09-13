@@ -273,10 +273,14 @@ footer {
 
 /* cv.html styles */
 
+.progress-section {
+  margin: 3rem 1.5rem;
+}
+
 .progress {
   position: relative;
   height: 2rem;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .progress-type {
