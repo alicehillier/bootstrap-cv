@@ -357,3 +357,9 @@ footer {
   color: white;
   background-color: rgb(25, 22, 35);
 }
+
+/* Contact page */
+
+.bg-color-contact {
+  background-color: white;
+}
