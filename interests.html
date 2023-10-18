@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="script" href="assets/script.js">
     <title>Captain Pawhead</title>
 </head>
 
@@ -43,8 +44,7 @@
                                         aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-3 col-sm-2 ui-menu-color list-inline-item menu-item">
-                                <a href="interests.html" class="hvr-pop"><i
-                                        class="fa-solid fa-circle-down"
+                                <a href="interests.html" class="hvr-pop"><i class="fa-solid fa-circle-down"
                                         aria-hidden="true"></i><span>Interests</span></a>
                             </li>
                             <li class="col-3 col-sm-2 ui-menu-color list-inline-item menu-item">
@@ -189,7 +189,7 @@
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
@@ -222,6 +222,22 @@
         </div>
 
     </footer>
+    <!-- Google Maps API -->
+    <script>
+        function initMap() {
+            let london = {lat: 53.30555731148036, lng: 0.41632976634198576};
+            let map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 3, center: london}
+            );
+            let marker = new google.maps.Marker({position: london, map: map});
+        }
+    </script>
+    <!-- Google Maps Markers -->
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <!-- Google Maps API -->
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ8RrjAzqgM1I9QOqj8jkSCu9d1yXTj5s&callback=initMap"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a4e93f9a19.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->

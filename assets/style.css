@@ -384,6 +384,19 @@ button[type="submit"] {
   background-color: rgb(25, 22, 35);
 }
 
+/* Interests Page */
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 50%;
+  width: 100%;
+  min-height: 360px;
+  min-width: 360px;
+}
+
 /* Media Queries */
 
 @media(min-width:992px) {
