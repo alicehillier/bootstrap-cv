@@ -44,8 +44,7 @@
                                         aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-3 col-sm-2 ui-menu-color list-inline-item menu-item">
-                                <a href="interests.html" class="hvr-pop"><i
-                                        class="fa-solid fa-circle-down"
+                                <a href="interests.html" class="hvr-pop"><i class="fa-solid fa-circle-down"
                                         aria-hidden="true"></i><span>Interests</span></a>
                             </li>
                             <li class="col-3 col-sm-2 ui-menu-color list-inline-item menu-item">
@@ -151,7 +150,15 @@
             </div>
         </div>
     </footer>
-
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("sumddBFKOPidzwAUS");
+            emailjs.send("service_wk1b7gb", "template_2odmt7e", {name: "Aaron", notes: "The project that I want is..."});
+        })();
+    </script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a4e93f9a19.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
